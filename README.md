@@ -1,18 +1,60 @@
-# React + Vite
+# Perplexity-Style Chat UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A Perplexity-inspired chat interface built as part of a frontend engineering task.  
+The project focuses on clean React architecture, state management, and component-driven UI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  Tech Stack
 
-## React Compiler
+- React + Vite
+- Zustand (state management)
+- Tailwind CSS
+- shadcn/ui
+- Storybook
+- ESLint
+- Vitest
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+---
 
-Note: This will impact Vite dev & build performances.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+##  Features
+
+- Perplexity-style centered chat UI
+- Component-based architecture
+- Zustand-powered chat state
+- Mock AI responses with loading state
+- Clean and responsive layout
+- Storybook for component documentation
+- ESLint for code quality
+
+---
+
+##  Chat Flow
+
+1. User enters a prompt
+2. Message appears instantly
+3. Loading indicator is shown
+4. Mock AI response appears after a delay
+
+---
+
+##  Getting Started
+
+Install dependencies:
+    npm install
+
+Run the app:
+    npm run dev
+
+Run Storybook:
+    npm run storybook
+
+Run tests:
+    npm run test
+
+Run ESLint:
+    npx eslint src
+
